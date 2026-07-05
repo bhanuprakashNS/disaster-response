@@ -39,7 +39,7 @@ Before running the project, ensure you have:
 
 Below is the workflow graph showing how reports pass through security scrubbing, multi-agent evaluation, and human approval:
 
-```mermaid
+```
 graph TD
     START([START]) --> parse_input[parse_input]
     parse_input --> security_checkpoint{security_checkpoint}
